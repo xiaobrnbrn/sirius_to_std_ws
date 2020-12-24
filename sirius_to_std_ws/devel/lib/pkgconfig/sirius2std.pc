@@ -1,8 +1,0 @@
-prefix=/home/sishubin/桌面/sirius_to_std_ws/devel
-
-Name: sirius2std
-Description: Description of sirius2std
-Version: 0.0.0
-Cflags: -I/home/sishubin/桌面/sirius_to_std_ws/devel/include
-Libs: -L${prefix}/lib 
-Requires: roscpp std_msgs message_runtime
