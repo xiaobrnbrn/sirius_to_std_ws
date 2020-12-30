@@ -62,6 +62,10 @@ class SubAndPub
     void imuCallback(const sirius2std::IMU::ConstPtr& msg)
     {
         sensor_msgs::Imu msg2pub;
+        //序列号
+        //msg2pub.header.seq = count;
+        //时间戳
+        msg2pub.header.stamp = ros::Time::now();
         //四元数位姿
         msg2pub.orientation.x=0;
         msg2pub.orientation.y=0;

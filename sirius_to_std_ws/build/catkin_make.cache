@@ -1,0 +1,2 @@
+sirius2std
+-DCATKIN_DEVEL_PREFIX=/home/sishubin/SLAMcodes/My_Local_Repo/sirius_to_std_ws/devel -DCMAKE_INSTALL_PREFIX=/home/sishubin/SLAMcodes/My_Local_Repo/sirius_to_std_ws/install -G Unix Makefiles
